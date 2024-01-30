@@ -9,8 +9,8 @@ interface IGear {
   thetaSpeed?: number;
   clockwise?: boolean;
   midRadius?: number;
-  fillStyle?: string;
-  lineStyle?: string;
+  //fillStyle?: string | CanvasGradient | CanvasPattern;
+  //lineStyle?: string;
   size?: number;
 }
 
